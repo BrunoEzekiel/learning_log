@@ -1,0 +1,34 @@
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment files
+venv/
+env/
+
+# Ignore Django configuration files
+*.settings
+*.ini
+*.conf
+
+# Ignore sensitive information
+secrets.ini
+secrets.conf
+passwords.txt
+
+# Exclude unnecessary Python or Django files
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.log
+*.db
+*.sqlite3
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.log
+*.db
+*.sqlite3
