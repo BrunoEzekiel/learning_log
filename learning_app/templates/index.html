@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <p>Bem-vindo ao Learning Log! Esta é uma página simples que ajudará você a acompanhar o que está aprendendo.</p>
-
+    <h1>Learning Log</h1>
+    <ul>
+        {% for topic in topics %}
+            <li>
+                <a href="{% url 'learning_app:topic' topic.id %}">{{ topic }}</a>
+            </li>
+        {% endfor %}
+    </ul>
 {% endblock content %}
